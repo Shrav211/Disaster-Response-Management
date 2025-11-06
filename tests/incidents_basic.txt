@@ -1,0 +1,4 @@
+# id node severity
+E1 12 3
+E2 7  4
+E3 18 2
