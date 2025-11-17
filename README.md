@@ -42,6 +42,8 @@ We expose a registry. Select the algorithm using the `--algo` flag (`Dijkstra`, 
 ```
 Your teammates only touch `src/algorithms/astar.*` and `src/algorithms/prim.*`.
 
+Note: `AStar` is implemented using a Manhattan heuristic for grid graphs (main recreates AStar with the grid width so the heuristic is correct). Use `--algo AStar` to run A*.
+
 
 ## Output
 - Prints selected algorithm, chosen resource, path, and path cost.
