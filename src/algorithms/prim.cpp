@@ -13,3 +13,5 @@ PathResult PrimMSTPF::find_path(const Graph& g, int src, int dst) {
 // TODO (Teammate #3): implement Prim's MST build; optionally compute a tree path src->dst.
 return {{}, std::numeric_limits<double>::infinity()};
 }
+
+// this is just a test for the design 
