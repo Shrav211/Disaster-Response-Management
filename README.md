@@ -1,11 +1,11 @@
 
 
-**Language:** C++20 | **Build:** Makefile | **Tested on:** engnx.utdallas.edu (devtoolset-12)
+**Language:** C++17 | **Build:** Makefile | **Tested on:** engnx04a.utdallas.edu (g++ 8.5.0)
 
+This project is fully compatible with the default g++ compiler available on engnx04a.utdallas.edu.
 
 ## Compile & Run (on engnx server)
 ```bash
-source /opt/rh/devtoolset-12/enable # load GCC 12
 make clean && make
 ./build/disaster_sim tests/grid_5x5.txt tests/resources_basic.txt tests/incidents_basic.txt
 ```

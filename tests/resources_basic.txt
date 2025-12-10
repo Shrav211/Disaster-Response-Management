@@ -1,3 +1,4 @@
 # id node kind
 A1 0 ambulance
-F1 24 firetruck
+A2 24 firetruck
+A3 45 ambulance

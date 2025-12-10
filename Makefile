@@ -1,5 +1,5 @@
 CXX := g++
-CXXFLAGS := -O2 -std=gnu++20 -Wall -Wextra -Wpedantic -I./src
+CXXFLAGS := -O2 -std=c++17 -Wall -Wextra -Wpedantic -I./src
 
 
 SRC := $(wildcard src/*.cpp) \
